@@ -7,23 +7,17 @@
 текст приветствия + имя студента с восклицательным знаком в конце.
 
 Например:
->> greetings = hello('Привет')
->> print(greetings('Анфиса'))
+>>> greetings = hello('Привет')
+>>> print(greetings('Анфиса'))
 Привет Анфиса!
 """
 
 # Ваш код должен быть тут :)
+# Не меняйте остальные строчки!
+# Чтобы проверить, правильно ли вы сделали задание,
+# Просто запустите файл в VSCode или выполните
+# `python <имя_вашего_файла> -V` в консоли
 
-
-def test_task_01():
-    """
-    Раскомментируйте строчки ниже, когда ваш код будет готов:
-    """
-    # greetings = hello('Привет')
-    # actual_text = greetings('Анфиса')
-    # expected_text = 'Привет Анфиса!'
-    #
-    # assert (
-    #     actual_text == expected_text,
-    #     f'Увы, должно быть {expected_text}, а у вас {actual_text}'
-    # )
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod()
