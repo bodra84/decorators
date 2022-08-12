@@ -5,7 +5,7 @@
 который выводит имена студентов старше заданного возраста.
 
 Например:
->>> @AgeCalculator(40)
+>>> @AgeWatcher(40)
 ... def my_func(student: Student):
 ...     print(f'Студент: {student.name}, возраст: {student.age}')
 >>> my_func(Student(name='Анфиса Питоновна', age=23))
